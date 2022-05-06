@@ -8,9 +8,9 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: testdb
     ports:
-      - 3309:3306
+      - 3311:3306
   redis:
     image: redis
     restart: always
     ports:
-      - 6379:6379
+      - 6381:6379
